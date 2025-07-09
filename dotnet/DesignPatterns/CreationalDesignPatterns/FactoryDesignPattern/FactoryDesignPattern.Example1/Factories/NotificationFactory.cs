@@ -1,6 +1,6 @@
-﻿using FactoryDesignPattern.NotificationAPI.Abstracts;
-using FactoryDesignPattern.NotificationAPI.Concretes;
-using FactoryDesignPattern.NotificationAPI.Enums;
+﻿using FactoryDesignPattern.NotificationAPI.Enums;
+using FactoryDesignPattern.NotificationAPI.Services.Abstracts;
+using FactoryDesignPattern.NotificationAPI.Services.Concretes;
 
 namespace FactoryDesignPattern.NotificationAPI.Factories;
 
@@ -10,8 +10,9 @@ public class NotificationFactory : INotificationFactory
 
 	public NotificationFactory(IServiceProvider serviceProvider)
 	{
-		_serviceProvider = serviceProvider ?? throw new ArgumentNullException(nameof(serviceProvider));
+		_serviceProvider = serviceProvider;
 	}
+
 	public INotificationService Create(NotificationType notificationType)
 	{
 		//return notificationType switch

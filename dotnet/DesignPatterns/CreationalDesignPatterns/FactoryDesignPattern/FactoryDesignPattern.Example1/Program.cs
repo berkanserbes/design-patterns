@@ -1,6 +1,5 @@
-using FactoryDesignPattern.NotificationAPI.Abstracts;
-using FactoryDesignPattern.NotificationAPI.Concretes;
 using FactoryDesignPattern.NotificationAPI.Factories;
+using FactoryDesignPattern.NotificationAPI.Services.Concretes;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);

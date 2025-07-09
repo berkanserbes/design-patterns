@@ -1,7 +1,7 @@
-﻿using FactoryDesignPattern.NotificationAPI.Abstracts;
-using FactoryDesignPattern.NotificationAPI.Models;
+﻿using FactoryDesignPattern.NotificationAPI.Models;
+using FactoryDesignPattern.NotificationAPI.Services.Abstracts;
 
-namespace FactoryDesignPattern.NotificationAPI.Concretes;
+namespace FactoryDesignPattern.NotificationAPI.Services.Concretes;
 
 public class EmailNotificationService : INotificationService
 {

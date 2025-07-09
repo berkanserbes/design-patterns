@@ -1,6 +1,6 @@
-﻿using FactoryDesignPattern.NotificationAPI.Abstracts;
-using FactoryDesignPattern.NotificationAPI.Factories;
+﻿using FactoryDesignPattern.NotificationAPI.Factories;
 using FactoryDesignPattern.NotificationAPI.Models;
+using FactoryDesignPattern.NotificationAPI.Services.Abstracts;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

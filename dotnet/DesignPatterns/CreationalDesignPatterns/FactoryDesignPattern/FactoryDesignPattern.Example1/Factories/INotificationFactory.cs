@@ -1,6 +1,5 @@
-﻿using FactoryDesignPattern.NotificationAPI.Abstracts;
-using FactoryDesignPattern.NotificationAPI.Enums;
-using FactoryDesignPattern.NotificationAPI.Models;
+﻿using FactoryDesignPattern.NotificationAPI.Enums;
+using FactoryDesignPattern.NotificationAPI.Services.Abstracts;
 
 namespace FactoryDesignPattern.NotificationAPI.Factories;
 

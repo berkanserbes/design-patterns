@@ -1,6 +1,6 @@
 ﻿using FactoryDesignPattern.NotificationAPI.Models;
 
-namespace FactoryDesignPattern.NotificationAPI.Abstracts;
+namespace FactoryDesignPattern.NotificationAPI.Services.Abstracts;
 
 public interface INotificationService
 {
