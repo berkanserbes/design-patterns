@@ -1,4 +1,7 @@
-﻿namespace AbstractFactoryDesignPattern.Example1;
+﻿using AbstractFactoryDesignPattern.Example1.Factory.Abstract;
+using AbstractFactoryDesignPattern.Example1.Factory.Concrete;
+
+namespace AbstractFactoryDesignPattern.Example1;
 
 public static class GUIFactoryProvider
 {

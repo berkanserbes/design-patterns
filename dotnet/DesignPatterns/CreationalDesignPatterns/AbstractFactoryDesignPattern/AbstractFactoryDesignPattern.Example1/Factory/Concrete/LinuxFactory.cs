@@ -1,4 +1,8 @@
-﻿namespace AbstractFactoryDesignPattern.Example1;
+﻿using AbstractFactoryDesignPattern.Example1.Factory.Abstract;
+using AbstractFactoryDesignPattern.Example1.Models.Abstract;
+using AbstractFactoryDesignPattern.Example1.Models.Concrete;
+
+namespace AbstractFactoryDesignPattern.Example1.Factory.Concrete;
 
 public class LinuxFactory : GUIFactory
 {

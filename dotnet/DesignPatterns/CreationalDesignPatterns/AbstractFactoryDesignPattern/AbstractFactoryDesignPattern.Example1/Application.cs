@@ -1,12 +1,15 @@
-﻿namespace AbstractFactoryDesignPattern.Example1;
+﻿using AbstractFactoryDesignPattern.Example1.Factory.Abstract;
+using AbstractFactoryDesignPattern.Example1.Models.Abstract;
+
+namespace AbstractFactoryDesignPattern.Example1;
 
 public class Application
 {
 	private readonly GUIFactory _factory;
 
-	private Button _button;
-	private Menu _menu;
-	private Dialog _dialog;
+	private Button _button = null!;
+	private Menu _menu = null!;
+	private Dialog _dialog = null!;
 	public Application(GUIFactory factory)
 	{
 		_factory = factory;

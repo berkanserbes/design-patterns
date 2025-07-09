@@ -1,4 +1,6 @@
-﻿namespace AbstractFactoryDesignPattern.Example1;
+﻿using AbstractFactoryDesignPattern.Example1.Models.Abstract;
+
+namespace AbstractFactoryDesignPattern.Example1.Models.Concrete;
 
 public class MacMenu : Menu
 {

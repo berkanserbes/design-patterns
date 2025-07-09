@@ -1,4 +1,4 @@
-﻿namespace AbstractFactoryDesignPattern.Example1;
+﻿namespace AbstractFactoryDesignPattern.Example1.Models.Abstract;
 
 public abstract class Menu
 {
