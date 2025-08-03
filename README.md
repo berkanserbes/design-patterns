@@ -10,6 +10,7 @@ This repository contains examples of commonly used design patterns implemented i
 | Builder            | Constructs complex objects step by step          | [View on GitHub](./dotnet/DesignPatterns/CreationalDesignPatterns/BuilderDesignPattern/) | [Link](https://medium.com/@berkanserbes/creational-design-pattern-builder-tasar%C4%B1m-deseni-c3ec90fe348d) |
 | Factory            | Delegates object creation to subclasses          | [View on GitHub](./dotnet/DesignPatterns/CreationalDesignPatterns/FactoryDesignPattern/) | [Link](https://medium.com/@berkanserbes/creational-tasar%C4%B1m-desenleri-factory-tasar%C4%B1m-deseni-f5858489167a)          |
 | Singleton          | Ensures a class has only one instance            | [View on GitHub](./dotnet/DesignPatterns/CreationalDesignPatterns/SingletonDesignPattern/) | [Link](https://medium.com/@berkanserbes/creational-tasar%C4%B1m-desenleri-singleton-tasar%C4%B1m-deseni-e8f8281c18d4)        |
+| Prototype          | Creates new objects by copying an existing object | [View on GitHub](./dotnet/DesignPatterns/CreationalDesignPatterns/PrototypeDesignPattern/) | [Link](https://medium.com/@berkanserbes/creational-tasar%C4%B1m-desenleri-prototype-tasar%C4%B1m-deseni-929a7276e177)  |
 
 
 
@@ -21,7 +22,8 @@ dotnet/DesignPatterns/
   │   ├── AbstractFactoryDesignPattern/
   │   ├── BuilderDesignPattern/
   │   ├── FactoryDesignPattern/
-  │   └── SingletonDesignPattern/
+  │   ├── SingletonDesignPattern/
+  │   └── PrototypeDesignPattern/
   └── DesignPatterns.sln
 ```
 
