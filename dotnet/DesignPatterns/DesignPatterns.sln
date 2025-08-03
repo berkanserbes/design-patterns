@@ -31,6 +31,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesignPattern.Exampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesignPattern.Example2", "CreationalDesignPatterns\BuilderDesignPattern\BuilderDesignPattern.Example2\BuilderDesignPattern.Example2.csproj", "{90296A0E-AF40-4BFA-A1DE-AB3417C086CD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrototypeDesignPattern", "PrototypeDesignPattern", "{8E8762A7-07CE-43B4-8A36-8D04282D199D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeDesignPattern.Example1", "CreationalDesignPatterns\PrototypeDesignPattern\PrototypeDesignPattern.Example1\PrototypeDesignPattern.Example1.csproj", "{014A575F-2193-46AC-8B31-EE6EC968B353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeDesignPattern.Example2", "CreationalDesignPatterns\PrototypeDesignPattern\PrototypeDesignPattern.Example2\PrototypeDesignPattern.Example2.csproj", "{50888A97-CFCA-4E85-9565-1986719FF0B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeDesignPattern.Example3", "CreationalDesignPatterns\PrototypeDesignPattern.Example3\PrototypeDesignPattern.Example3.csproj", "{B6FE9ED4-7825-4630-9957-808EAB40AB45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +81,18 @@ Global
 		{90296A0E-AF40-4BFA-A1DE-AB3417C086CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90296A0E-AF40-4BFA-A1DE-AB3417C086CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90296A0E-AF40-4BFA-A1DE-AB3417C086CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{014A575F-2193-46AC-8B31-EE6EC968B353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014A575F-2193-46AC-8B31-EE6EC968B353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014A575F-2193-46AC-8B31-EE6EC968B353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014A575F-2193-46AC-8B31-EE6EC968B353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50888A97-CFCA-4E85-9565-1986719FF0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50888A97-CFCA-4E85-9565-1986719FF0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50888A97-CFCA-4E85-9565-1986719FF0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50888A97-CFCA-4E85-9565-1986719FF0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FE9ED4-7825-4630-9957-808EAB40AB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FE9ED4-7825-4630-9957-808EAB40AB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FE9ED4-7825-4630-9957-808EAB40AB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FE9ED4-7825-4630-9957-808EAB40AB45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +111,10 @@ Global
 		{C3F81C43-20AC-4D79-BBF1-CD0AE699B5C2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{2C93FA66-D533-4C8F-BB8E-4953B9730282} = {C3F81C43-20AC-4D79-BBF1-CD0AE699B5C2}
 		{90296A0E-AF40-4BFA-A1DE-AB3417C086CD} = {C3F81C43-20AC-4D79-BBF1-CD0AE699B5C2}
+		{8E8762A7-07CE-43B4-8A36-8D04282D199D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{014A575F-2193-46AC-8B31-EE6EC968B353} = {8E8762A7-07CE-43B4-8A36-8D04282D199D}
+		{50888A97-CFCA-4E85-9565-1986719FF0B2} = {8E8762A7-07CE-43B4-8A36-8D04282D199D}
+		{B6FE9ED4-7825-4630-9957-808EAB40AB45} = {8E8762A7-07CE-43B4-8A36-8D04282D199D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AEBD5B6A-90D8-4297-B692-6DDE8C03BE25}
