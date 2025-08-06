@@ -11,6 +11,7 @@ This repository contains examples of commonly used design patterns implemented i
 | Factory            | Delegates object creation to subclasses          | [View on GitHub](./dotnet/DesignPatterns/CreationalDesignPatterns/FactoryDesignPattern/) | [Link](https://medium.com/@berkanserbes/creational-tasar%C4%B1m-desenleri-factory-tasar%C4%B1m-deseni-f5858489167a)          |
 | Singleton          | Ensures a class has only one instance            | [View on GitHub](./dotnet/DesignPatterns/CreationalDesignPatterns/SingletonDesignPattern/) | [Link](https://medium.com/@berkanserbes/creational-tasar%C4%B1m-desenleri-singleton-tasar%C4%B1m-deseni-e8f8281c18d4)        |
 | Prototype          | Creates new objects by copying an existing object | [View on GitHub](./dotnet/DesignPatterns/CreationalDesignPatterns/PrototypeDesignPattern/) | [Link](https://medium.com/@berkanserbes/creational-tasar%C4%B1m-desenleri-prototype-tasar%C4%B1m-deseni-929a7276e177)  |
+| Facade             | Provides a simplified interface to a complex subsystem | [View on GitHub](./dotnet/DesignPatterns/StructuralDesignPatterns/FacadeDesignPattern/) | [Link](https://medium.com/@berkanserbes/structural-tasar%C4%B1m-desenleri-facade-tasar%C4%B1m-deseni-eaa0db396446) |
 
 
 
@@ -24,6 +25,8 @@ dotnet/DesignPatterns/
   │   ├── FactoryDesignPattern/
   │   ├── SingletonDesignPattern/
   │   └── PrototypeDesignPattern/
+  ├── StructuralDesignPatterns/
+  │   ├── FacadeDesignPattern/
   └── DesignPatterns.sln
 ```
 
