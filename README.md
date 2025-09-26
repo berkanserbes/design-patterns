@@ -15,6 +15,8 @@ This repository contains examples of commonly used design patterns implemented i
 | Adapter            | Allows incompatible interfaces to work together   | [View on GitHub](./dotnet/DesignPatterns/StructuralDesignPatterns/AdapterDesignPattern/) | [Link](https://medium.com/@berkanserbes/structural-tasar%C4%B1m-desenleri-adapter-tasar%C4%B1m-deseni-6d31acb8115f) |
 | Bridge            | Decouples an abstraction from its implementation   | [View on GitHub](./dotnet/DesignPatterns/StructuralDesignPatterns/BridgeDesignPattern/) | [Link](https://medium.com/@berkanserbes/structural-tasar%C4%B1m-desenleri-bridge-tasar%C4%B1m-deseni-cd31dc479d21) |
 | Composite          | Composes objects into tree structures to represent part-whole hierarchies | [View on GitHub](./dotnet/DesignPatterns/StructuralDesignPatterns/CompositeDesignPattern/) | [Link](https://medium.com/@berkanserbes/structural-tasar%C4%B1m-desenleri-composite-tasar%C4%B1m-deseni-6bd865d19fb8) |
+| Decorator          | Adds additional behavior to objects dynamically | [View on GitHub](./dotnet/DesignPatterns/StructuralDesignPatterns/DecoratorDesignPattern/) | [Link](https://medium.com/@berkanserbes/structural-tasar%C4%B1m-desenleri-decorator-tasar%C4%B1m-deseni-b053f30d1e2a) |
+
 
 
 ## Project Structure
@@ -31,7 +33,8 @@ dotnet/DesignPatterns/
   │   ├── FacadeDesignPattern/
   │   ├── AdapterDesignPattern/
   │   ├── BridgeDesignPattern/
-  │   └── CompositeDesignPattern/
+  |   ├── CompositeDesignPattern/
+  │   └── DecoratorDesignPattern/
   └── DesignPatterns.sln
 ```
 
