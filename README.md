@@ -16,6 +16,7 @@ This repository contains examples of commonly used design patterns implemented i
 | Bridge            | Decouples an abstraction from its implementation   | [View on GitHub](./dotnet/DesignPatterns/StructuralDesignPatterns/BridgeDesignPattern/) | [Link](https://medium.com/@berkanserbes/structural-tasar%C4%B1m-desenleri-bridge-tasar%C4%B1m-deseni-cd31dc479d21) |
 | Composite          | Composes objects into tree structures to represent part-whole hierarchies | [View on GitHub](./dotnet/DesignPatterns/StructuralDesignPatterns/CompositeDesignPattern/) | [Link](https://medium.com/@berkanserbes/structural-tasar%C4%B1m-desenleri-composite-tasar%C4%B1m-deseni-6bd865d19fb8) |
 | Decorator          | Adds additional behavior to objects dynamically | [View on GitHub](./dotnet/DesignPatterns/StructuralDesignPatterns/DecoratorDesignPattern/) | [Link](https://medium.com/@berkanserbes/structural-tasar%C4%B1m-desenleri-decorator-tasar%C4%B1m-deseni-b053f30d1e2a) |
+| Strategy           | Defines a family of algorithms and makes them interchangeable | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/StrategyDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-strategy-tasar%C4%B1m-deseni-5b28c70728c5) |
 
 
 
@@ -35,6 +36,8 @@ dotnet/DesignPatterns/
   │   ├── BridgeDesignPattern/
   |   ├── CompositeDesignPattern/
   │   └── DecoratorDesignPattern/
+  ├── BehavioralDesignPatterns/
+  │   └── StrategyDesignPattern/
   └── DesignPatterns.sln
 ```
 
