@@ -17,6 +17,7 @@ This repository contains examples of commonly used design patterns implemented i
 | Composite          | Composes objects into tree structures to represent part-whole hierarchies | [View on GitHub](./dotnet/DesignPatterns/StructuralDesignPatterns/CompositeDesignPattern/) | [Link](https://medium.com/@berkanserbes/structural-tasar%C4%B1m-desenleri-composite-tasar%C4%B1m-deseni-6bd865d19fb8) |
 | Decorator          | Adds additional behavior to objects dynamically | [View on GitHub](./dotnet/DesignPatterns/StructuralDesignPatterns/DecoratorDesignPattern/) | [Link](https://medium.com/@berkanserbes/structural-tasar%C4%B1m-desenleri-decorator-tasar%C4%B1m-deseni-b053f30d1e2a) |
 | Strategy           | Defines a family of algorithms and makes them interchangeable | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/StrategyDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-strategy-tasar%C4%B1m-deseni-5b28c70728c5) |
+| Template Method    | Defines the skeleton of an algorithm in a method, deferring some steps to subclasses | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/TemplateMethodDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-template-method-tasar%C4%B1m-deseni-e8cb9995b978) |
 
 
 
@@ -37,7 +38,8 @@ dotnet/DesignPatterns/
   |   ├── CompositeDesignPattern/
   │   └── DecoratorDesignPattern/
   ├── BehavioralDesignPatterns/
-  │   └── StrategyDesignPattern/
+  │   ├── StrategyDesignPattern/
+  │   └── TemplateMethodDesignPattern/
   └── DesignPatterns.sln
 ```
 
