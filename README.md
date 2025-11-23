@@ -20,9 +20,7 @@ This repository contains examples of commonly used design patterns implemented i
 | Template Method    | Defines the skeleton of an algorithm in a method, deferring some steps to subclasses | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/TemplateMethodDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-template-method-tasar%C4%B1m-deseni-e8cb9995b978) |
 | Observer           | Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/ObserverDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-observer-tasar%C4%B1m-deseni-3da340a8154e) |
 | Chain of Responsibility | Passes a request along a chain of handlers until one of them handles it | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/ChainOfResponsibilityDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-chain-of-responsibility-tasar%C4%B1m-deseni-42d606a239d6) |
-
-
-
+| Command            | Converts requests into stand-alone objects, enabling parameterization, queuing, and undo/redo operations | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/CommandDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-command-tasar%C4%B1m-deseni-923646e573fd) |
 
 ## Project Structure
 
@@ -38,12 +36,13 @@ dotnet/DesignPatterns/
   │   ├── FacadeDesignPattern/
   │   ├── AdapterDesignPattern/
   │   ├── BridgeDesignPattern/
-  |   ├── CompositeDesignPattern/
+  │   ├── CompositeDesignPattern/
   │   └── DecoratorDesignPattern/
   ├── BehavioralDesignPatterns/
   │   ├── StrategyDesignPattern/
   │   ├── ObserverDesignPattern/
-  |   ├── ChainOfResponsibilityDesignPattern/
+  │   ├── ChainOfResponsibilityDesignPattern/
+  │   ├── CommandDesignPattern/
   │   └── TemplateMethodDesignPattern/
   └── DesignPatterns.sln
 ```
