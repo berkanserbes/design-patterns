@@ -22,6 +22,7 @@ This repository contains examples of commonly used design patterns implemented i
 | Chain of Responsibility | Passes a request along a chain of handlers until one of them handles it | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/ChainOfResponsibilityDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-chain-of-responsibility-tasar%C4%B1m-deseni-42d606a239d6) |
 | Command            | Converts requests into stand-alone objects, enabling parameterization, queuing, and undo/redo operations | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/CommandDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-command-tasar%C4%B1m-deseni-923646e573fd) |
 | Iterator           | Provides a way to access elements of an aggregate object sequentially without exposing its underlying representation | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/IteratorDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-iterator-tasar%C4%B1m-deseni-bff79724a78e) |
+| Mediator           | Enables loose coupling between objects by centralizing their communication | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/MediatorDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-mediator-tasar%C4%B1m-deseni-9c637162ddf2) |
 
 ## Project Structure
 
@@ -45,7 +46,8 @@ dotnet/DesignPatterns/
   │   ├── ObserverDesignPattern/
   │   ├── ChainOfResponsibilityDesignPattern/
   │   ├── CommandDesignPattern/
-  │   └── TemplateMethodDesignPattern/
+  │   ├── TemplateMethodDesignPattern/
+  │   └── MediatorDesignPattern/  
   └── DesignPatterns.sln
 ```
 
