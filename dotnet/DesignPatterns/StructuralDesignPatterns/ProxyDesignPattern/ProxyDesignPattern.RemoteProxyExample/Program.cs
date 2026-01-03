@@ -16,35 +16,29 @@
 //   - Error handling and retries
 // ============================================================================
 
-namespace ProxyDesignPattern.RemoteProxyExample;
+using ProxyDesignPattern.RemoteProxyExample;
 
-public class Program
-{
-    public static void Main()
-    {
-        Console.WriteLine("=== REMOTE PROXY PATTERN DEMO ===\n");
+Console.WriteLine("=== REMOTE PROXY PATTERN DEMO ===\n");
 
-        // Create proxy that connects to remote payment server
-        IPaymentService paymentService = new PaymentServiceProxy("https://payment-api.example.com");
-        Console.WriteLine();
+// Create proxy that connects to remote payment server
+IPaymentService paymentService = new PaymentServiceProxy("https://payment-api.example.com");
+Console.WriteLine();
 
-        // Client uses proxy as if it were a local object
-        Console.WriteLine("--- Processing Payment ---\n");
-        var result = paymentService.ProcessPayment(150.00m, "4532015112830366");
-        
-        Console.WriteLine();
-        Console.WriteLine($"Payment Success: {result.Success}");
-        Console.WriteLine($"Transaction ID: {result.TransactionId}");
-        Console.WriteLine($"Message: {result.Message}");
+// Client uses proxy as if it were a local object
+Console.WriteLine("--- Processing Payment ---\n");
+var result = paymentService.ProcessPayment(150.00m, "4532015112830366");
 
-        Console.WriteLine("\n--- Checking Account Balance ---\n");
-        var balance = paymentService.GetBalance("ACC-001");
-        
-        Console.WriteLine();
-        Console.WriteLine($"Account Balance: {balance:C}");
+Console.WriteLine();
+Console.WriteLine($"Payment Success: {result.Success}");
+Console.WriteLine($"Transaction ID: {result.TransactionId}");
+Console.WriteLine($"Message: {result.Message}");
 
-        Console.WriteLine("\n=== SUMMARY ===");
-        Console.WriteLine("Client called methods on proxy as if it were local.");
-        Console.WriteLine("Proxy handled all remote communication transparently.");
-    }
-}
+Console.WriteLine("\n--- Checking Account Balance ---\n");
+var balance = paymentService.GetBalance("ACC-001");
+
+Console.WriteLine();
+Console.WriteLine($"Account Balance: {balance:C}");
+
+Console.WriteLine("\n=== SUMMARY ===");
+Console.WriteLine("Client called methods on proxy as if it were local.");
+Console.WriteLine("Proxy handled all remote communication transparently.");
