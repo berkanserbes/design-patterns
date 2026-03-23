@@ -27,6 +27,7 @@ This repository contains examples of commonly used design patterns implemented i
 | Mediator           | Enables loose coupling between objects by centralizing their communication | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/MediatorDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-mediator-tasar%C4%B1m-deseni-9c637162ddf2) |
 | Memento            | Creates and stores state checkpoints so an object can be restored later, enabling reversible changes while preserving encapsulation. | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/MementoDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-memento-tasar%C4%B1m-deseni-5d596a8d7678) |
 | State              | Allows an object to alter its behavior when its internal state changes | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/StateDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-state-tasar%C4%B1m-deseni-4da83dff728a) |
+| Visitor            | Separates operations from the object structure, allowing new operations to be added without modifying the objects | [View on GitHub](./dotnet/DesignPatterns/BehavioralDesignPatterns/VisitorDesignPattern/) | [Link](https://medium.com/@berkanserbes/behavioral-tasar%C4%B1m-desenleri-visitor-tasar%C4%B1m-deseni-19c14d492e81) |
 
 ## Project Structure
 
@@ -55,7 +56,8 @@ dotnet/DesignPatterns/
   │   ├── TemplateMethodDesignPattern/
   │   ├── MediatorDesignPattern/
   │   ├── MementoDesignPattern/
-  │   └── StateDesignPattern/  
+  │   ├── StateDesignPattern/
+  │   └── VisitorDesignPattern/  
   └── DesignPatterns.sln
 ```
 
