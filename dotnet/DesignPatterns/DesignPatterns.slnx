@@ -1,0 +1,128 @@
+﻿<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+
+  <Folder Name="/BehavioralDesignPatterns/" />
+
+  <Folder Name="/BehavioralDesignPatterns/ChainOfResponsibilityDesignPattern/">
+    <Project Path="BehavioralDesignPatterns/ChainOfResponsibilityDesignPattern/ChainOfResponsibilityDesignPattern.Example1/ChainOfResponsibilityDesignPattern.Example1.csproj" />
+    <Project Path="BehavioralDesignPatterns/ChainOfResponsibilityDesignPattern/ChainOfResponsibilityDesignPattern.Example2/ChainOfResponsibilityDesignPattern.Example2.csproj" />
+    <Project Path="BehavioralDesignPatterns/ChainOfResponsibilityDesignPattern/ChainOfResponsibilityDesignPattern.Example3/ChainOfResponsibilityDesignPattern.Example3.csproj" />
+  </Folder>
+
+  <Folder Name="/BehavioralDesignPatterns/CommandDesignPattern/">
+    <Project Path="BehavioralDesignPatterns/CommandDesignPattern/CommandDesignPattern.Example1/CommandDesignPattern.Example1.csproj" />
+    <Project Path="BehavioralDesignPatterns/CommandDesignPattern/CommandDesignPattern.Example2/CommandDesignPattern.Example2.csproj" />
+  </Folder>
+
+  <Folder Name="/BehavioralDesignPatterns/IteratorDesignPattern/">
+    <Project Path="BehavioralDesignPatterns/IteratorDesignPattern/IteratorDesignPattern.Example1/IteratorDesignPattern.Example1.csproj" />
+    <Project Path="BehavioralDesignPatterns/IteratorDesignPattern/IteratorDesignPattern.Example2/IteratorDesignPattern.Example2.csproj" />
+    <Project Path="BehavioralDesignPatterns/IteratorDesignPattern/IteratorDesignPattern.Example3/IteratorDesignPattern.Example3.csproj" />
+  </Folder>
+
+  <Folder Name="/BehavioralDesignPatterns/MediatorDesignPattern/">
+    <Project Path="BehavioralDesignPatterns/MediatorDesignPattern/MediatorDesignPattern.Example1/MediatorDesignPattern.Example1.csproj" />
+    <Project Path="BehavioralDesignPatterns/MediatorDesignPattern/MediatorDesignPattern.Example2/MediatorDesignPattern.Example2.csproj" />
+    <Project Path="BehavioralDesignPatterns/MediatorDesignPattern/MediatorDesignPattern.Example3/MediatorDesignPattern.Example3.csproj" />
+    <Project Path="BehavioralDesignPatterns/MediatorDesignPattern/MediatorDesignPattern.Example4/MediatorDesignPattern.Example4.csproj" />
+  </Folder>
+
+  <Folder Name="/BehavioralDesignPatterns/MementoDesignPattern/">
+    <Project Path="BehavioralDesignPatterns/MementoDesignPattern/MementoDesignPattern.Example1/MementoDesignPattern.Example1.csproj" />
+  </Folder>
+
+  <Folder Name="/BehavioralDesignPatterns/ObserverDesignPattern/">
+    <Project Path="BehavioralDesignPatterns/ObserverDesignPattern/ObserverDesignPattern.Example1/ObserverDesignPattern.Example1.csproj" />
+    <Project Path="BehavioralDesignPatterns/ObserverDesignPattern/ObserverDesignPattern.Example2/ObserverDesignPattern.Example2.csproj" />
+  </Folder>
+
+  <Folder Name="/BehavioralDesignPatterns/StateDesignPattern/">
+    <Project Path="BehavioralDesignPatterns/StateDesignPattern/StateDesignPattern.Example1/StateDesignPattern.Example1.csproj" />
+  </Folder>
+
+  <Folder Name="/BehavioralDesignPatterns/StrategyDesignPattern/">
+    <Project Path="BehavioralDesignPatterns/StrategyDesignPattern/StrategyDesignPattern.Example1/StrategyDesignPattern.Example1.csproj" />
+  </Folder>
+
+  <Folder Name="/BehavioralDesignPatterns/TemplateMethodDesignPattern/">
+    <Project Path="BehavioralDesignPatterns/TemplateMethodDesignPattern/TemplateMethodDesignPattern.Example1/TemplateMethodDesignPattern.Example1.csproj" />
+  </Folder>
+
+  <Folder Name="/BehavioralDesignPatterns/VisitorDesignPattern/">
+    <Project Path="BehavioralDesignPatterns/VisitorDesignPattern/VisitorDesignPattern.Example1/VisitorDesignPattern.Example1.csproj" />
+  </Folder>
+
+  <Folder Name="/CreationalDesignPatterns/" />
+
+  <Folder Name="/CreationalDesignPatterns/AbstractFactoryDesignPattern/">
+    <Project Path="CreationalDesignPatterns/AbstractFactoryDesignPattern/AbstractFactoryDesignPattern.Example1/AbstractFactoryDesignPattern.Example1.csproj" />
+  </Folder>
+
+  <Folder Name="/CreationalDesignPatterns/BuilderDesignPattern/">
+    <Project Path="CreationalDesignPatterns/BuilderDesignPattern/BuilderDesignPattern.Example1/BuilderDesignPattern.Example1.csproj" />
+    <Project Path="CreationalDesignPatterns/BuilderDesignPattern/BuilderDesignPattern.Example2/BuilderDesignPattern.Example2.csproj" />
+  </Folder>
+
+  <Folder Name="/CreationalDesignPatterns/FactoryDesignPattern/">
+    <Project Path="CreationalDesignPatterns/FactoryDesignPattern/FactoryDesignPattern.Example1/FactoryDesignPattern.NotificationAPI.csproj" />
+  </Folder>
+
+  <Folder Name="/CreationalDesignPatterns/PrototypeDesignPattern/">
+    <Project Path="CreationalDesignPatterns/PrototypeDesignPattern/PrototypeDesignPattern.Example1/PrototypeDesignPattern.Example1.csproj" />
+    <Project Path="CreationalDesignPatterns/PrototypeDesignPattern/PrototypeDesignPattern.Example2/PrototypeDesignPattern.Example2.csproj" />
+    <Project Path="CreationalDesignPatterns/PrototypeDesignPattern/PrototypeDesignPattern.Example3/PrototypeDesignPattern.Example3.csproj" />
+  </Folder>
+
+  <Folder Name="/CreationalDesignPatterns/SingletonDesignPattern/">
+    <Project Path="CreationalDesignPatterns/SingletonDesignPattern/SingletonDesignPattern.Example1/SingletonDesignPattern.Example1.csproj" />
+    <Project Path="CreationalDesignPatterns/SingletonDesignPattern/SingletonDesignPattern.Example2/SingletonDesignPattern.Example2.csproj" />
+    <Project Path="CreationalDesignPatterns/SingletonDesignPattern/SingletonDesignPattern.Example3/SingletonDesignPattern.Example3.csproj" />
+    <Project Path="CreationalDesignPatterns/SingletonDesignPattern/SingletonDesignPattern.Example4/SingletonDesignPattern.Example4.csproj" />
+    <Project Path="CreationalDesignPatterns/SingletonDesignPattern/SingletonDesignPattern.Example5/SingletonDesignPattern.Example5.csproj" />
+  </Folder>
+
+  <Folder Name="/StructuralDesignPatterns/" />
+
+  <Folder Name="/StructuralDesignPatterns/AdapterDesignPattern/">
+    <Project Path="StructuralDesignPatterns/AdapterDesignPattern/AdapterDesignPattern.Example1/AdapterDesignPattern.Example1.csproj" />
+  </Folder>
+
+  <Folder Name="/StructuralDesignPatterns/BridgeDesignPattern/">
+    <Project Path="StructuralDesignPatterns/BridgeDesignPattern/BridgeDesignPattern.Example1/BridgeDesignPattern.Example1.csproj" />
+    <Project Path="StructuralDesignPatterns/BridgeDesignPattern/BridgeDesignPattern.Example3/BridgeDesignPattern.Example3.csproj" />
+    <Project Path="StructuralDesignPatterns/BridgeDesignPattern/BridgeDesignPattern.Example4/BridgeDesignPattern.Example4.csproj" />
+  </Folder>
+
+  <Folder Name="/StructuralDesignPatterns/CompositeDesignPattern/">
+    <Project Path="StructuralDesignPatterns/CompositeDesignPattern/CompositeDesignPattern.Example1/CompositeDesignPattern.Example1.csproj" />
+    <Project Path="StructuralDesignPatterns/CompositeDesignPattern/CompositeDesignPattern.Example2/CompositeDesignPattern.Example2.csproj" />
+    <Project Path="StructuralDesignPatterns/CompositeDesignPattern/CompositeDesignPattern.Example3/CompositeDesignPattern.Example3.csproj" />
+  </Folder>
+
+  <Folder Name="/StructuralDesignPatterns/DecoratorDesignPattern/">
+    <Project Path="StructuralDesignPatterns/DecoratorDesignPattern/DecoratorDesignPattern.Example1/DecoratorDesignPattern.Example1.csproj" />
+  </Folder>
+
+  <Folder Name="/StructuralDesignPatterns/FacadeDesignPattern/">
+    <Project Path="StructuralDesignPatterns/FacadeDesignPattern/FacadeDesignPattern.Example1/FacadeDesignPattern.Example1.csproj" />
+  </Folder>
+
+  <Folder Name="/StructuralDesignPatterns/FlyweightDesignPattern/">
+    <Project Path="StructuralDesignPatterns/FlyweightDesignPattern/FlyweightDesignPattern.Example1/FlyweightDesignPattern.Example1.csproj" />
+  </Folder>
+
+  <Folder Name="/StructuralDesignPatterns/ProxyDesignPattern/">
+    <Project Path="StructuralDesignPatterns/ProxyDesignPattern/ProxyDesignPattern.CachingProxyExample/ProxyDesignPattern.CachingProxyExample.csproj" />
+    <Project Path="StructuralDesignPatterns/ProxyDesignPattern/ProxyDesignPattern.DynamicProxyExample/ProxyDesignPattern.DynamicProxyExample.csproj" />
+    <Project Path="StructuralDesignPatterns/ProxyDesignPattern/ProxyDesignPattern.Example1/ProxyDesignPattern.Example1.csproj" />
+    <Project Path="StructuralDesignPatterns/ProxyDesignPattern/ProxyDesignPattern.ProtectionProxyExample/ProxyDesignPattern.ProtectionProxyExample.csproj" />
+    <Project Path="StructuralDesignPatterns/ProxyDesignPattern/ProxyDesignPattern.RemoteProxyExample/ProxyDesignPattern.RemoteProxyExample.csproj" />
+    <Project Path="StructuralDesignPatterns/ProxyDesignPattern/ProxyDesignPattern.SmartReferenceProxyExample/ProxyDesignPattern.SmartReferenceProxyExample.csproj" />
+    <Project Path="StructuralDesignPatterns/ProxyDesignPattern/ProxyDesignPattern.VirtualProxyExample/ProxyDesignPattern.VirtualProxyExample.csproj" />
+  </Folder>
+
+</Solution>
