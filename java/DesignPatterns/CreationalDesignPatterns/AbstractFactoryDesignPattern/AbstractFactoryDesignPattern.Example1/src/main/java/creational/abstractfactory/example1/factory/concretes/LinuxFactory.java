@@ -1,0 +1,11 @@
+package creational.abstractfactory.example1.factory.concretes;
+
+import creational.abstractfactory.example1.factory.abstracts.GUIFactory;
+import creational.abstractfactory.example1.models.abstracts.*;
+import creational.abstractfactory.example1.models.concretes.*;
+
+public class LinuxFactory extends GUIFactory {
+    public Button createButton() { return new LinuxButton(); }
+    public Menu   createMenu()   { return new LinuxMenu(); }
+    public Dialog createDialog() { return new LinuxDialog(); }
+}
