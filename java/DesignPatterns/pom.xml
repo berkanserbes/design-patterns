@@ -17,7 +17,74 @@
     </properties>
 
     <modules>
-        <!-- Creational -->
+        <!-- Creational - Singleton -->
         <module>CreationalDesignPatterns/SingletonDesignPattern/SingletonDesignPattern.Example1</module>
+        <module>CreationalDesignPatterns/SingletonDesignPattern/SingletonDesignPattern.Example2</module>
+        <module>CreationalDesignPatterns/SingletonDesignPattern/SingletonDesignPattern.Example3</module>
+        <module>CreationalDesignPatterns/SingletonDesignPattern/SingletonDesignPattern.Example4</module>
+        <module>CreationalDesignPatterns/SingletonDesignPattern/SingletonDesignPattern.Example5</module>
+        <!-- Creational - AbstractFactory -->
+        <module>CreationalDesignPatterns/AbstractFactoryDesignPattern/AbstractFactoryDesignPattern.Example1</module>
+        <!-- Creational - Builder -->
+        <module>CreationalDesignPatterns/BuilderDesignPattern/BuilderDesignPattern.Example1</module>
+        <module>CreationalDesignPatterns/BuilderDesignPattern/BuilderDesignPattern.Example2</module>
+        <!-- Creational - Factory -->
+        <module>CreationalDesignPatterns/FactoryDesignPattern/FactoryDesignPattern.Example1</module>
+        <!-- Creational - Prototype -->
+        <module>CreationalDesignPatterns/PrototypeDesignPattern/PrototypeDesignPattern.Example1</module>
+        <module>CreationalDesignPatterns/PrototypeDesignPattern/PrototypeDesignPattern.Example2</module>
+        <module>CreationalDesignPatterns/PrototypeDesignPattern/PrototypeDesignPattern.Example3</module>
+        <!-- Structural - Adapter -->
+        <module>StructuralDesignPatterns/AdapterDesignPattern/AdapterDesignPattern.Example1</module>
+        <!-- Structural - Bridge -->
+        <module>StructuralDesignPatterns/BridgeDesignPattern/BridgeDesignPattern.Example1</module>
+        <module>StructuralDesignPatterns/BridgeDesignPattern/BridgeDesignPattern.Example3</module>
+        <module>StructuralDesignPatterns/BridgeDesignPattern/BridgeDesignPattern.Example4</module>
+        <!-- Structural - Composite -->
+        <module>StructuralDesignPatterns/CompositeDesignPattern/CompositeDesignPattern.Example1</module>
+        <module>StructuralDesignPatterns/CompositeDesignPattern/CompositeDesignPattern.Example2</module>
+        <module>StructuralDesignPatterns/CompositeDesignPattern/CompositeDesignPattern.Example3</module>
+        <!-- Structural - Decorator -->
+        <module>StructuralDesignPatterns/DecoratorDesignPattern/DecoratorDesignPattern.Example1</module>
+        <!-- Structural - Facade -->
+        <module>StructuralDesignPatterns/FacadeDesignPattern/FacadeDesignPattern.Example1</module>
+        <!-- Structural - Flyweight -->
+        <module>StructuralDesignPatterns/FlyweightDesignPattern/FlyweightDesignPattern.Example1</module>
+        <!-- Structural - Proxy -->
+        <module>StructuralDesignPatterns/ProxyDesignPattern/ProxyDesignPattern.Example1</module>
+        <module>StructuralDesignPatterns/ProxyDesignPattern/ProxyDesignPattern.VirtualProxyExample</module>
+        <module>StructuralDesignPatterns/ProxyDesignPattern/ProxyDesignPattern.SmartReferenceProxyExample</module>
+        <module>StructuralDesignPatterns/ProxyDesignPattern/ProxyDesignPattern.CachingProxyExample</module>
+        <module>StructuralDesignPatterns/ProxyDesignPattern/ProxyDesignPattern.RemoteProxyExample</module>
+        <module>StructuralDesignPatterns/ProxyDesignPattern/ProxyDesignPattern.ProtectionProxyExample</module>
+        <!-- Behavioral - ChainOfResponsibility -->
+        <module>BehavioralDesignPatterns/ChainOfResponsibilityDesignPattern/ChainOfResponsibilityDesignPattern.Example1</module>
+        <module>BehavioralDesignPatterns/ChainOfResponsibilityDesignPattern/ChainOfResponsibilityDesignPattern.Example2</module>
+        <module>BehavioralDesignPatterns/ChainOfResponsibilityDesignPattern/ChainOfResponsibilityDesignPattern.Example3</module>
+        <!-- Behavioral - Command -->
+        <module>BehavioralDesignPatterns/CommandDesignPattern/CommandDesignPattern.Example1</module>
+        <module>BehavioralDesignPatterns/CommandDesignPattern/CommandDesignPattern.Example2</module>
+        <!-- Behavioral - Iterator -->
+        <module>BehavioralDesignPatterns/IteratorDesignPattern/IteratorDesignPattern.Example1</module>
+        <module>BehavioralDesignPatterns/IteratorDesignPattern/IteratorDesignPattern.Example2</module>
+        <module>BehavioralDesignPatterns/IteratorDesignPattern/IteratorDesignPattern.Example3</module>
+        <!-- Behavioral - Mediator -->
+        <module>BehavioralDesignPatterns/MediatorDesignPattern/MediatorDesignPattern.Example1</module>
+        <module>BehavioralDesignPatterns/MediatorDesignPattern/MediatorDesignPattern.Example2</module>
+        <module>BehavioralDesignPatterns/MediatorDesignPattern/MediatorDesignPattern.Example3</module>
+        <module>BehavioralDesignPatterns/MediatorDesignPattern/MediatorDesignPattern.Example4</module>
+        <!-- Behavioral - Memento -->
+        <module>BehavioralDesignPatterns/MementoDesignPattern/MementoDesignPattern.Example1</module>
+        <!-- Behavioral - Observer -->
+        <module>BehavioralDesignPatterns/ObserverDesignPattern/ObserverDesignPattern.Example1</module>
+        <module>BehavioralDesignPatterns/ObserverDesignPattern/ObserverDesignPattern.Example2</module>
+        <!-- Behavioral - State -->
+        <module>BehavioralDesignPatterns/StateDesignPattern/StateDesignPattern.Example1</module>
+        <!-- Behavioral - Strategy -->
+        <module>BehavioralDesignPatterns/StrategyDesignPattern/StrategyDesignPattern.Example1</module>
+        <!-- Behavioral - TemplateMethod -->
+        <module>BehavioralDesignPatterns/TemplateMethodDesignPattern/TemplateMethodDesignPattern.Example1</module>
+        <!-- Behavioral - Visitor -->
+        <module>BehavioralDesignPatterns/VisitorDesignPattern/VisitorDesignPattern.Example1</module>
     </modules>
 </project>
