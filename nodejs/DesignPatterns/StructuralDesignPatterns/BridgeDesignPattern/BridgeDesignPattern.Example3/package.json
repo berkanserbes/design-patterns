@@ -1,0 +1,12 @@
+{
+  "name": "bridge-design-pattern-example3",
+  "version": "1.0.0",
+  "description": "Bridge Design Pattern - Example 3: Shape & Color",
+  "main": "dist/index.js",
+  "scripts": { "start": "ts-node src/index.ts", "build": "tsc" },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
