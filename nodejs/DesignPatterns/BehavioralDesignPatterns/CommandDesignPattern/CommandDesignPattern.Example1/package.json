@@ -1,0 +1,15 @@
+{
+  "name": "command-design-pattern-example1",
+  "version": "1.0.0",
+  "description": "Command Design Pattern - Example 1: Text Editor Undo/Redo",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
