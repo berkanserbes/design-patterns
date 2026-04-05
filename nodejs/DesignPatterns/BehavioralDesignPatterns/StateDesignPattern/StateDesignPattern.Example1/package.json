@@ -1,0 +1,13 @@
+{
+  "name": "state-design-pattern-example1",
+  "version": "1.0.0",
+  "description": "State Design Pattern - E-Commerce Order Status Example",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

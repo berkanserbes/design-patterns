@@ -1,0 +1,15 @@
+{
+  "name": "bridge-design-pattern-example4",
+  "version": "1.0.0",
+  "description": "Bridge Design Pattern - Example 4: Vehicle & Workshop",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
