@@ -8,7 +8,7 @@
 [![Java](https://img.shields.io/badge/Java-17+-ED8B00?logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Medium](https://img.shields.io/badge/Articles-Medium-black?logo=medium&logoColor=white)](https://medium.com/@berkanserbes)
+[![Medium](https://img.shields.io/badge/Articles-Medium-black?logo=medium&logoColor=white)](https://medium.com/@berkanserbes/list/tasarm-desenleri-77a72ce679d4)
 
 </div>
 
