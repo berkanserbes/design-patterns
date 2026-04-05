@@ -1,0 +1,13 @@
+{
+  "name": "observer-design-pattern-example2",
+  "version": "1.0.0",
+  "description": "Observer Design Pattern - Weather Condition Tracking System",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
