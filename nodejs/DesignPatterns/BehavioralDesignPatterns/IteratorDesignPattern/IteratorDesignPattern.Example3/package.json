@@ -1,0 +1,15 @@
+{
+  "name": "iterator-design-pattern-example3",
+  "version": "1.0.0",
+  "description": "Iterator Design Pattern - Example 3: Music Streaming Platform",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
